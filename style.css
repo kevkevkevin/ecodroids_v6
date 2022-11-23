@@ -57,6 +57,23 @@ Additional CSS
 
 .eco_title {
 	font-family: 'eco_font', sans-serif;
+	width: 50%;
+    margin: 0 auto;
+    font-size: 46px;
+}
+
+.BG_ecodroids {
+	background-image: url(images/floatingEcodroids01.png);
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-y: 100%;
+}
+
+@media only screen and (max-width: 1022px) {
+	.BG_ecodroids {
+		background: none;
+	}
 }
 	
 /*--------------------------------------------------
