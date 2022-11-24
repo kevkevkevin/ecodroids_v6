@@ -1408,8 +1408,8 @@
 	}
 	
 	.accordion.bigger-acc dt {
-		font-size: calc(1rem + 3vw);
-		line-height: calc(1rem + 4.5vw);
+		font-size: calc(1rem + 2vw);
+		line-height: calc(1rem + 2.5vw);
 		font-weight: 400;
 		margin-top: 40px;
 		padding-top: 40px;
@@ -1486,12 +1486,14 @@
 	
 	.light-content .light-section .accordion dt span {
 		color:#222;
+		font-family: 'eco_font', sans-serif;
+		font-size: 55px;
 	}
 	
 	.accordion .accordion-content {
 		margin-bottom: 0;
 		font-family: 'basis_grotesque_proregular', sans-serif;
-		font-size:16px;
+		font-size:20px;
 		color:#222;
 		font-weight:400;
 		line-height: 26px;
@@ -1504,7 +1506,7 @@
 	}
 	
 	.accordion.bigger-acc .accordion-content {
-		font-size:16px;
+		font-size:18px;
 		line-height: 26px;
 	}
 	
