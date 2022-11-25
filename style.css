@@ -85,6 +85,14 @@ Additional CSS
 	font-size: 5.5rem;
 }
 
+.faq_bg {
+	background-image: url(https://images.prismic.io/kevinnisay/35528394-4389-423c-90f7-54c6e1f3d845_cloud-bebe.png?auto=compress,format);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-y: BOTTOM;
+}
+
+
 @media only screen and (max-width: 1454px) {
 	.eco_title {
 		font-family: 'eco_font', sans-serif;
@@ -126,6 +134,10 @@ Additional CSS
 
 	.h3_ecodroids {
 		font-size: 4rem;
+	}
+
+	.faq_bg {
+		background-image: none;
 	}
 }
 

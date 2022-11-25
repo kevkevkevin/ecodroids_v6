@@ -2538,6 +2538,7 @@
 	
 	.accordion.bigger-acc dt span {
 		text-indent: -3px;
+		font-size: 40px !important
 	}
 	
 	.accordion.bigger-acc .acc-icon-wrap {
@@ -2594,6 +2595,10 @@
 
 
 @media only screen and (max-width: 767px) {
+	.accordion.bigger-acc dt span {
+		text-indent: -3px;
+		font-size: 30px !important;
+	}
 	
 	.content-slider .swiper-pagination-bullets, .content-carousel .swiper-pagination-bullets, .content-looped-carousel .swiper-pagination-bullets {
 		bottom: 10px !important;
@@ -2703,6 +2708,9 @@
 
 
 @media only screen and (max-width: 479px) {
+	.light-content .light-section .accordion dt span {
+		font-size: 20px !important;
+	}
 	
 	.pinned-section .pin-spacer {
 		width:100%!important;
