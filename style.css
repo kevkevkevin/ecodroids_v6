@@ -48,18 +48,18 @@ Additional CSS
 }
 
 .floating_hero img{
-	width: 60%;
+	width: 75%;
     /* transform: translate(10px, 10px); */
     /* left: 50%; */
     position: relative;
-    top: -180px;
+    top: -181px;
 }
 
 .eco_title {
 	font-family: 'eco_font', sans-serif;
-	width: 50%;
+    width: 75%;
     margin: 0 auto;
-    font-size: 46px;
+    font-size: 50px;
 }
 
 .BG_ecodroids {
@@ -92,6 +92,29 @@ Additional CSS
     background-position-y: BOTTOM;
 }
 
+.eco-bg-overlay {
+	background-image: url(https://images.prismic.io/kevinnisay/bfb0da63-6a10-4a87-a22b-be2d7b1e487c_hello-cloud.jpg?auto=compress,format) !important;
+    background-position-y: bottom !important;
+    background-repeat: no-repeat !important;
+    background-size: 25% !important;
+}
+
+.collab {
+	width: 150px;
+}
+
+.floating_::before {
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-image: url(https://images.prismic.io/kevinnisay/a6fd59af-c55c-4f7e-a035-d42fe3ce00ac_floating_eco_2.png?auto=compress,format);
+    background-size: cover;
+    bottom: -65px;
+    right: 0;
+    overflow: visible;
+    /* z-index: 9999; */
+}
 
 @media only screen and (max-width: 1454px) {
 	.eco_title {
@@ -139,6 +162,10 @@ Additional CSS
 	.faq_bg {
 		background-image: none;
 	}
+	
+	.eco-bg-overlay {
+		background-image: none;
+	}
 }
 
 @media only screen and (max-width: 986px) {
@@ -153,11 +180,15 @@ Additional CSS
 	.eco_title {
 		font-size: 27px;
 	}
+
+	.floating_::before {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 768px) {
 	.eco_title {
-		font-size: 20px;
+		font-size: 24px;
 	}
 
 	.h3_ecodroids {
@@ -176,7 +207,7 @@ Additional CSS
 ---------------------------------------------------*/
 
 	html,body{
-		font-family: 'basis_grotesque_promedium', sans-serif;
+		font-family: 'eco_font', sans-serif;
 		font-weight: 400;
 		font-size:16px;
 		height:100%;

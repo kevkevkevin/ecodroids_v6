@@ -1485,15 +1485,15 @@
 	}
 	
 	.light-content .light-section .accordion dt span {
-		color:#222;
+		color: #222;
 		font-family: 'eco_font', sans-serif;
-		font-size: 55px;
+		font-size: 30px;
 	}
 	
 	.accordion .accordion-content {
 		margin-bottom: 0;
 		font-family: 'basis_grotesque_proregular', sans-serif;
-		font-size:20px;
+		font-size:16px;
 		color:#222;
 		font-weight:400;
 		line-height: 26px;
@@ -1511,7 +1511,7 @@
 	}
 	
 	.light-content .accordion .accordion-content, .dark-section .accordion .accordion-content {
-		color:#ccc;
+		color:#fff;
 	}
 	
 	.light-content .light-section .accordion .accordion-content {
@@ -2254,7 +2254,7 @@
 	}
 	
 	.moving-gallery li {
-		width: 40vw;
+		width: 30vw;
 		padding-left: 20px;
 		padding-right: 20px;
 		box-sizing:border-box;
@@ -2709,7 +2709,7 @@
 
 @media only screen and (max-width: 479px) {
 	.light-content .light-section .accordion dt span {
-		font-size: 20px !important;
+		font-size: 18px !important;
 	}
 	
 	.pinned-section .pin-spacer {
