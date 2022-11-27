@@ -2710,6 +2710,7 @@
 @media only screen and (max-width: 479px) {
 	.light-content .light-section .accordion dt span {
 		font-size: 18px !important;
+		line-height: 25px;
 	}
 	
 	.pinned-section .pin-spacer {

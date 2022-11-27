@@ -116,6 +116,7 @@ Additional CSS
     /* z-index: 9999; */
 }
 
+
 @media only screen and (max-width: 1454px) {
 	.eco_title {
 		font-family: 'eco_font', sans-serif;
@@ -166,6 +167,14 @@ Additional CSS
 	.eco-bg-overlay {
 		background-image: none;
 	}
+
+	.mobile_menu_bg {
+		background-color: rgb(23, 23, 23);
+		background-image: url(https://images.prismic.io/kevinnisay/a6fd59af-c55c-4f7e-a035-d42fe3ce00ac_floating_eco_2.png?auto=compress,format) !important;
+		background-size: 74%;
+		background-repeat: no-repeat;
+		background-position-y: 542px;
+	}
 }
 
 @media only screen and (max-width: 986px) {
@@ -183,6 +192,10 @@ Additional CSS
 
 	.floating_::before {
 		display: none;
+	}
+
+	.collab {
+		width: 69px;
 	}
 }
 
@@ -3850,7 +3863,7 @@ Additional CSS
 	}
 	
 	.flexnav li a {
-		font-size: calc(1rem + 7vw);
+		font-size:calc(1rem + 3vw);
 		line-height: calc(1rem + 9.5vw);
 	}
 	
@@ -3990,7 +4003,7 @@ Additional CSS
 	}
 	
 	.preloader-intro {
-		font-size: 14vw;
+		font-size: 9vw;
 		line-height: 18vw;
 		height: 18vw;
 	}
