@@ -182,7 +182,7 @@
 	}
 	
 	.uppercase-text .hero-title {
-		font-size:9vw;
+		font-size:11vw;
 		line-height:9vw;
 		text-transform:uppercase;
 	}
@@ -582,7 +582,7 @@
 		font-size:9vw;
 		line-height:11vw;
 		font-weight:500;
-		font-family: 'basis_grotesque_promedium', sans-serif;
+		font-family: 'eco_font', sans-serif;
 		position: relative;
 		margin-top:0px;
 		display:inline-block;
