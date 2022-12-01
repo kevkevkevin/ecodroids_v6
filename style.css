@@ -48,9 +48,10 @@ Additional CSS
 }
 
 .floating_hero img{
-	width: 85%;
+	width: 65%;
     position: relative;
-    top: -60px;
+    top: -145px;
+
 }
 
 .eco_title {
