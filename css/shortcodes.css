@@ -2305,6 +2305,7 @@
 	.moving-gallery li img{
 		height:auto;
 		margin:0px;
+		border-radius: 15px;
 	}
 	
 
