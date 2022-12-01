@@ -180,9 +180,9 @@ Additional CSS
 
 	nav {
 		background-image: url(https://images.prismic.io/kevinnisay/a6fd59af-c55c-4f7e-a035-d42fe3ce00ac_floating_eco_2.png?auto=compress,format) !important;
-		background-repeat: no-repeat;
-		background-position-y: 105%;
-		background-size: 41%;
+		background-repeat: no-repeat !important;
+		background-position-y: 105% !important;
+		background-size: 41% !important;
 	}
 }
 
