@@ -83,12 +83,12 @@ Additional CSS
     background-position-y: BOTTOM;
 }
 
-.eco-bg-overlay {
+/* .eco-bg-overlay {
 	background-image: url(images/imagfloat_.png) !important;
     background-position-y: bottom !important;
     background-repeat: no-repeat !important;
     background-size: 25% !important;
-}
+} */
 
 .collab {
 	width: 150px;
